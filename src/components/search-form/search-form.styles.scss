@@ -1,0 +1,15 @@
+.search__field {
+  display: flex;
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.7rem;
+  width: 40rem; 
+}
+.search__field:focus {
+  outline: none; 
+}
+.search__field::placeholder {
+  color: #DAD0CC; 
+}

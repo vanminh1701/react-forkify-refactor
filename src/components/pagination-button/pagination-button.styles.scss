@@ -1,0 +1,42 @@
+.btn-inline {
+  color: #F59A83;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #F9F5F3;
+  padding: .8rem 1.2rem;
+  border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all .2s; 
+  position: absolute;
+
+  & svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor;
+    margin: 0 .2rem; 
+    // border: 1px solid black;
+  }
+
+  & span {
+    margin: 0 .4rem; 
+  }
+
+  &:hover {
+    color: #F48982;
+    background-color: #F2EFEE; 
+  }
+
+  &:focus {
+    outline: none; 
+  }
+}
+
+.results__btn--prev {
+  left: 3rem;
+}
+.results__btn--next {
+  right: 3rem;
+  flex-direction: row-reverse; 
+}

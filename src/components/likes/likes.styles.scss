@@ -1,0 +1,41 @@
+.likes {
+  position: relative;
+  align-self: stretch;
+  padding: 0 !important; 
+}
+.likes__field {
+  cursor: pointer;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transition: all .3s; 
+  visibility: hidden;
+  position: relative;
+}
+.likes__field:hover {
+  background-color: #F2EFEE; 
+}
+
+.likes__panel {
+  visibility: hidden;
+  transition: all .3s; 
+  z-index: -1;
+  position: absolute;
+}
+
+.likes__panel:hover,
+.likes__field:hover .likes__panel {
+  visibility: visible;
+  opacity: 1; 
+  z-index: 1000;
+}
+.likes__icon {
+  fill: #F59A83;
+  height: 3.75rem;
+  width: 3.75rem; 
+}
+
+.visible {
+  visibility: visible;
+}

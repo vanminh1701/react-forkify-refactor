@@ -1,0 +1,10 @@
+.recipe {
+  background-color: #F9F5F3;
+  border-top: 1px solid #fff; 
+
+  &:hover .recipe__info-buttons {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
